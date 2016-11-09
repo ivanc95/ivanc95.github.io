@@ -75,3 +75,26 @@ width: 15em;
 	border-radius: 5px 5px;
 	background-color: #cc0323;	
 }
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  clear: both;
+}
+
+.button:hover {background-color: #008CBA}
+
+.button:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
